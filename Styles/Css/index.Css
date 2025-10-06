@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+}
+
+header {
+  background: #490657;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Estilos del formulario */
+.formulario {
+  width: 40%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 97%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background:   #490657;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background:  #490657;
+}
+
+/* Caja de resultados */
+.resultado {
+  width: 30%;
+}
+
+.caja {
+  background: #eaf4ea;
+  border: 2px solid  #490657;
+  padding: 50px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.caja h2 {
+  margin-top: 0;
+  color:  #490657;
+}
+
+#cerrar {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cerrar:hover {
+  background: #b71c1c;
+}
